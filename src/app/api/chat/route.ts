@@ -104,7 +104,7 @@ export async function POST(request: NextRequest) {
       model: grok('grok-3'),
       messages: messagesWithSystem,
       temperature: 0.8,
-      maxTokens: 400,
+      maxTokens: 1000,
     })
 
     return result.toDataStreamResponse()
