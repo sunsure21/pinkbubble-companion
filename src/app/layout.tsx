@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "핑크버블 🌸",
-  description: "귀여운 AI 친구 핑크버블과 대화해보세요!",
+  description: "핑크버블과 지구환경을 지키는 모험을 떠나요!",
 };
 
 export default function RootLayout({
